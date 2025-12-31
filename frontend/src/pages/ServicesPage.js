@@ -178,14 +178,19 @@ const ServicesPage = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <motion.div {...fadeInUp} className="mb-16">
             <div className="flex items-start gap-8">
-              <div className="w-full md:w-2/3">
-                <h2
-                  className="text-4xl md:text-5xl font-semibold tracking-tight text-slate-50 mb-6"
-                  style={{ fontFamily: 'Outfit, sans-serif' }}
-                  data-testid="ai-tech-heading"
-                >
-                  AI & Technology Development
-                </h2>
+              <div className="w-full">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center">
+                    <Brain size={36} className="text-white" />
+                  </div>
+                  <h2
+                    className="text-4xl md:text-5xl font-semibold tracking-tight text-slate-50"
+                    style={{ fontFamily: 'Outfit, sans-serif' }}
+                    data-testid="ai-tech-heading"
+                  >
+                    AI & Technology Development
+                  </h2>
+                </div>
                 <p className="text-lg leading-relaxed text-slate-400 mb-6" data-testid="ai-tech-description">
                   We build enterprise-grade AI solutions and custom software that solve complex business
                   problems. Our team combines deep technical expertise with industry knowledge to deliver
