@@ -133,25 +133,15 @@ const AboutPage = () => {
 
           <motion.div
             {...fadeInUp}
-            className="relative rounded-3xl overflow-hidden mb-16 bg-gradient-to-br from-slate-900 to-slate-950 p-16 border border-slate-800"
+            className="relative rounded-3xl overflow-hidden mb-16"
             data-testid="culture-visual"
           >
-            <div className="grid grid-cols-3 gap-8">
-              {[Brain, Cpu, Sparkles, Code, Layers, Zap, Target, Lightbulb, Rocket].map((Icon, idx) => (
-                <motion.div
-                  key={idx}
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.5, delay: idx * 0.1 }}
-                  viewport={{ once: true }}
-                  className="flex items-center justify-center"
-                >
-                  <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-600/20 to-cyan-500/20 border border-blue-500/30 flex items-center justify-center">
-                    <Icon size={40} className="text-cyan-400" />
-                  </div>
-                </motion.div>
-              ))}
-            </div>
+            <img
+              src="https://images.unsplash.com/photo-1758873272809-7947b9a73fe5?crop=entropy&cs=srgb&fm=jpg&q=85"
+              alt="Technology team collaboration"
+              className="w-full h-[500px] object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent" />
           </motion.div>
 
           <motion.div {...staggerContainer} className="grid grid-cols-1 md:grid-cols-2 gap-8">
