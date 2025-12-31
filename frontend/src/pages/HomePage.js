@@ -145,8 +145,10 @@ const HomePage = () => {
                         className="flex items-center space-x-3 text-slate-300"
                         data-testid={`hero-feature-${idx}`}
                       >
-                        <Zap size={20} className="text-cyan-400" />
-                        <span>{item}</span>
+                        <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center">
+                          <Zap size={20} className="text-white" />
+                        </div>
+                        <span className="font-medium">{item}</span>
                       </motion.div>
                     )
                   )}
