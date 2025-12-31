@@ -128,12 +128,6 @@ const WorkPage = () => {
                 </div>
 
                 <div className="p-8">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider" data-testid={`case-study-industry-${idx}`}>
-                      {study.industry}
-                    </span>
-                  </div>
-
                   <h3
                     className="text-2xl md:text-3xl font-medium text-slate-50 mb-3"
                     style={{ fontFamily: 'Outfit, sans-serif' }}
