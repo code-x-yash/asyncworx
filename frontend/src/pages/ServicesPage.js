@@ -177,10 +177,10 @@ const ServicesPage = () => {
       <section className="py-24 md:py-32 bg-slate-900/50" data-testid="ai-tech-section">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <motion.div {...fadeInUp} className="mb-16">
-            <div className="flex items-start gap-8">
-              <div className="w-full">
+            <div className="flex flex-col lg:flex-row items-start gap-8">
+              <div className="w-full lg:w-2/3">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-blue-600 to-cyan-500 flex items-center justify-center flex-shrink-0">
                     <Brain size={36} className="text-white" />
                   </div>
                   <h2
@@ -210,6 +210,14 @@ const ServicesPage = () => {
                     architect solutions with long-term vision and proven methodologies
                   </p>
                 </div>
+              </div>
+              <div className="w-full lg:w-1/3">
+                <img
+                  src="https://images.unsplash.com/photo-1763568258330-039d2f3dfc76?crop=entropy&cs=srgb&fm=jpg&q=85"
+                  alt="Software development and coding"
+                  className="rounded-2xl w-full h-64 object-cover shadow-2xl"
+                  data-testid="ai-tech-image"
+                />
               </div>
             </div>
           </motion.div>
@@ -244,10 +252,10 @@ const ServicesPage = () => {
       <section className="py-24 md:py-32" data-testid="creative-section">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <motion.div {...fadeInUp} className="mb-16">
-            <div className="flex items-start gap-8">
-              <div className="w-full">
+            <div className="flex flex-col lg:flex-row items-start gap-8">
+              <div className="w-full lg:w-2/3">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center flex-shrink-0">
                     <Palette size={36} className="text-white" />
                   </div>
                   <h2
@@ -276,6 +284,14 @@ const ServicesPage = () => {
                     with attention to every detail
                   </p>
                 </div>
+              </div>
+              <div className="w-full lg:w-1/3">
+                <img
+                  src="https://images.unsplash.com/photo-1764258560063-d14eea44de4e?crop=entropy&cs=srgb&fm=jpg&q=85"
+                  alt="3D graphics and digital design"
+                  className="rounded-2xl w-full h-64 object-cover shadow-2xl"
+                  data-testid="creative-image"
+                />
               </div>
             </div>
           </motion.div>
@@ -310,10 +326,10 @@ const ServicesPage = () => {
       <section className="py-24 md:py-32 bg-slate-900/50" data-testid="marketing-section">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <motion.div {...fadeInUp} className="mb-16">
-            <div className="flex items-start gap-8">
-              <div className="w-full">
+            <div className="flex flex-col lg:flex-row items-start gap-8">
+              <div className="w-full lg:w-2/3">
                 <div className="flex items-center gap-4 mb-6">
-                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-green-600 to-emerald-500 flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-green-600 to-emerald-500 flex items-center justify-center flex-shrink-0">
                     <TrendingUp size={36} className="text-white" />
                   </div>
                   <h2
@@ -342,6 +358,14 @@ const ServicesPage = () => {
                     your business ambitions
                   </p>
                 </div>
+              </div>
+              <div className="w-full lg:w-1/3">
+                <img
+                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&q=85"
+                  alt="Data analytics and marketing dashboard"
+                  className="rounded-2xl w-full h-64 object-cover shadow-2xl"
+                  data-testid="marketing-image"
+                />
               </div>
             </div>
           </motion.div>
