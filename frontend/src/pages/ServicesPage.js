@@ -343,14 +343,6 @@ const ServicesPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="hidden md:block w-1/3">
-                <img
-                  src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&q=85"
-                  alt="Digital marketing analytics dashboard"
-                  className="rounded-2xl w-full h-64 object-cover"
-                  data-testid="marketing-image"
-                />
-              </div>
             </div>
           </motion.div>
 
