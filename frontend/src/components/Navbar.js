@@ -29,20 +29,16 @@ const Navbar = () => {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-slate-950/80 backdrop-blur-xl border-b border-white/10 shadow-2xl'
-          : 'bg-transparent'
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 bg-white shadow-lg border-b border-slate-200"
       data-testid="navbar"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           <Link to="/" className="flex items-center" data-testid="logo-link">
             <img
               src="https://customer-assets.emergentagent.com/job_e84a2f9f-eaa2-40d6-8235-e7abcf3ef6d1/artifacts/lbd8mlag_ChatGPT%20Image%20Dec%2031%2C%202025%2C%2001_33_37%20PM.png"
               alt="AsyncWorx Logo"
-              className="h-16 w-auto brightness-110"
+              className="h-20 w-auto"
               data-testid="logo-image"
             />
           </Link>
