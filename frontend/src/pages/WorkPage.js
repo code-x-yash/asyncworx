@@ -116,15 +116,15 @@ const WorkPage = () => {
                 className="group relative overflow-hidden rounded-3xl bg-slate-900 border border-slate-800 hover:shadow-2xl transition-all duration-500"
                 data-testid={`case-study-${idx}`}
               >
-                <div className="relative h-64 overflow-hidden">
-                  <img
-                    src={study.image}
-                    alt={study.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    data-testid={`case-study-image-${idx}`}
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/50 to-transparent" />
-                  <div className="absolute top-4 left-4 text-cyan-400">{study.icon}</div>
+                <div className="relative h-64 bg-gradient-to-br from-slate-800 to-slate-900 flex items-center justify-center border-b border-slate-800">
+                  <div className="text-cyan-400 group-hover:scale-110 transition-transform duration-300">
+                    {study.icon}
+                  </div>
+                  <div className="absolute top-4 left-4 px-3 py-1 bg-cyan-500/10 border border-cyan-500/30 rounded-full">
+                    <span className="text-xs font-semibold text-cyan-400 uppercase tracking-wider">
+                      {study.industry}
+                    </span>
+                  </div>
                 </div>
 
                 <div className="p-8">
