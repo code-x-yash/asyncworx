@@ -211,14 +211,6 @@ const ServicesPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="hidden md:block w-1/3">
-                <img
-                  src="https://images.unsplash.com/photo-1757165792338-b4e8a88ae1c7?crop=entropy&cs=srgb&fm=jpg&q=85"
-                  alt="Mobile code development close up"
-                  className="rounded-2xl w-full h-64 object-cover"
-                  data-testid="ai-tech-image"
-                />
-              </div>
             </div>
           </motion.div>
 
