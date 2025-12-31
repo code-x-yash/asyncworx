@@ -51,8 +51,8 @@ const Navbar = () => {
                 data-testid={`nav-link-${link.name.toLowerCase()}`}
                 className={`text-base font-medium transition-all duration-300 relative group ${
                   location.pathname === link.path
-                    ? 'text-cyan-400'
-                    : 'text-slate-300 hover:text-cyan-400'
+                    ? 'text-blue-600'
+                    : 'text-slate-700 hover:text-blue-600'
                 }`}
               >
                 {link.name}
