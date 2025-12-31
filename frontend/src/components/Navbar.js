@@ -77,7 +77,7 @@ const Navbar = () => {
 
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden text-slate-300 hover:text-cyan-400 transition-colors"
+            className="md:hidden text-slate-700 hover:text-blue-600 transition-colors"
             data-testid="mobile-menu-toggle"
           >
             {isOpen ? <X size={28} /> : <Menu size={28} />}
