@@ -245,14 +245,19 @@ const ServicesPage = () => {
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <motion.div {...fadeInUp} className="mb-16">
             <div className="flex items-start gap-8">
-              <div className="w-full md:w-2/3">
-                <h2
-                  className="text-4xl md:text-5xl font-semibold tracking-tight text-slate-50 mb-6"
-                  style={{ fontFamily: 'Outfit, sans-serif' }}
-                  data-testid="creative-heading"
-                >
-                  Creative & Graphics Studio
-                </h2>
+              <div className="w-full">
+                <div className="flex items-center gap-4 mb-6">
+                  <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-purple-600 to-pink-500 flex items-center justify-center">
+                    <Palette size={36} className="text-white" />
+                  </div>
+                  <h2
+                    className="text-4xl md:text-5xl font-semibold tracking-tight text-slate-50"
+                    style={{ fontFamily: 'Outfit, sans-serif' }}
+                    data-testid="creative-heading"
+                  >
+                    Creative & Graphics Studio
+                  </h2>
+                </div>
                 <p className="text-lg leading-relaxed text-slate-400 mb-6" data-testid="creative-description">
                   World-class design that captures attention and converts. From brand identity to digital assets,
                   we create visual experiences that resonate and inspire action.
