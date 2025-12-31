@@ -277,14 +277,6 @@ const ServicesPage = () => {
                   </p>
                 </div>
               </div>
-              <div className="hidden md:block w-1/3">
-                <img
-                  src="https://images.unsplash.com/photo-1730206562928-0efd62560435?crop=entropy&cs=srgb&fm=jpg&q=85"
-                  alt="Creative design studio workspace"
-                  className="rounded-2xl w-full h-64 object-cover"
-                  data-testid="creative-image"
-                />
-              </div>
             </div>
           </motion.div>
 
