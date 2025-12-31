@@ -42,7 +42,7 @@ const Navbar = () => {
             <img
               src="https://customer-assets.emergentagent.com/job_e84a2f9f-eaa2-40d6-8235-e7abcf3ef6d1/artifacts/lbd8mlag_ChatGPT%20Image%20Dec%2031%2C%202025%2C%2001_33_37%20PM.png"
               alt="AsyncWorx Logo"
-              className="h-12 w-auto"
+              className="h-16 w-auto brightness-110"
               data-testid="logo-image"
             />
           </Link>
