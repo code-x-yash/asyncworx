@@ -1,0 +1,153 @@
+{
+  "design_system": {
+    "typography": {
+      "font_family": {
+        "headings": "Outfit, sans-serif",
+        "body": "DM Sans, sans-serif",
+        "mono": "JetBrains Mono, monospace"
+      },
+      "scale": {
+        "h1": "text-6xl md:text-7xl font-bold tracking-tight leading-none",
+        "h2": "text-4xl md:text-5xl font-semibold tracking-tight",
+        "h3": "text-2xl md:text-3xl font-medium",
+        "body_large": "text-lg md:text-xl leading-relaxed",
+        "body_default": "text-base leading-relaxed text-slate-400"
+      },
+      "imports": [
+        "@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;500;700&family=JetBrains+Mono:wght@400&family=Outfit:wght@300;400;600;800&display=swap');"
+      ]
+    },
+    "colors": {
+      "theme": "dark",
+      "palette": {
+        "background": "#020617",
+        "foreground": "#F8FAFC",
+        "primary": "#3B82F6",
+        "primary_gradient": "linear-gradient(135deg, #3B82F6 0%, #06B6D4 100%)",
+        "secondary": "#1E293B",
+        "accent": "#8B5CF6",
+        "muted": "#0F172A",
+        "border": "rgba(255,255,255,0.1)"
+      },
+      "utility_classes": {
+        "bg_page": "bg-slate-950",
+        "text_primary": "text-slate-50",
+        "text_secondary": "text-slate-400",
+        "glass_panel": "bg-slate-900/50 backdrop-blur-xl border border-white/10 shadow-2xl"
+      }
+    },
+    "layout": {
+      "container": "max-w-7xl mx-auto px-6 md:px-12",
+      "spacing": {
+        "section_padding": "py-24 md:py-32",
+        "element_gap": "gap-8 md:gap-12"
+      },
+      "grid_systems": {
+        "bento": "grid grid-cols-1 md:grid-cols-3 gap-6",
+        "hero": "grid grid-cols-1 lg:grid-cols-12 gap-12 items-center"
+      }
+    },
+    "components": {
+      "buttons": {
+        "primary": "bg-gradient-to-r from-blue-600 to-cyan-500 text-white px-8 py-4 rounded-full font-semibold hover:shadow-[0_0_20px_rgba(59,130,246,0.5)] transition-all duration-300 transform hover:-translate-y-1",
+        "secondary": "bg-white/5 border border-white/10 text-white px-8 py-4 rounded-full font-medium hover:bg-white/10 transition-all duration-300 backdrop-blur-md"
+      },
+      "cards": {
+        "glass": "bg-slate-900/40 backdrop-blur-md border border-white/5 rounded-2xl p-8 hover:border-blue-500/30 transition-colors duration-300 group",
+        "feature": "relative overflow-hidden rounded-3xl bg-slate-900 border border-slate-800 p-10 hover:shadow-2xl transition-all duration-500"
+      },
+      "inputs": {
+        "default": "bg-slate-950/50 border-slate-800 focus:border-blue-500 focus:ring-1 focus:ring-blue-500 rounded-lg h-12 px-4 text-slate-200 placeholder:text-slate-600 transition-all"
+      }
+    },
+    "motion": {
+      "library": "framer-motion",
+      "default_transition": {
+        "duration": 0.5,
+        "ease": [0.22, 1, 0.36, 1]
+      },
+      "stagger": 0.1,
+      "viewport_margin": "-100px"
+    }
+  },
+  "assets": {
+    "logo_url": "https://customer-assets.emergentagent.com/job_e84a2f9f-eaa2-40d6-8235-e7abcf3ef6d1/artifacts/lbd8mlag_ChatGPT%20Image%20Dec%2031%2C%202025%2C%2001_33_37%20PM.png",
+    "images": {
+      "hero_background": {
+        "url": "https://images.unsplash.com/photo-1746470427617-91e8dd28298d?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Abstract futuristic blue data waves",
+        "usage": "Hero section background with overlay"
+      },
+      "about_team": {
+        "url": "https://images.unsplash.com/photo-1758691737387-a89bb8adf768?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Diverse tech team collaborating",
+        "usage": "About page culture section"
+      },
+      "service_tech": {
+        "url": "https://images.unsplash.com/photo-1757165792338-b4e8a88ae1c7?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Mobile code development close up",
+        "usage": "Services page - AI & Tech card"
+      },
+      "service_creative": {
+        "url": "https://images.unsplash.com/photo-1730206562928-0efd62560435?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Creative design studio workspace",
+        "usage": "Services page - Creative Studio card"
+      },
+      "service_marketing": {
+        "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Digital marketing analytics dashboard",
+        "usage": "Services page - Marketing card"
+      },
+      "industry_maritime": {
+        "url": "https://images.unsplash.com/photo-1759660017393-c581868bea2b?crop=entropy&cs=srgb&fm=jpg&q=85",
+        "alt": "Cargo ship at ocean sunset",
+        "usage": "Industries section - Maritime card"
+      }
+    },
+    "icons": {
+      "library": "lucide-react",
+      "preferred_set": ["Brain", "Code", "Palette", "BarChart3", "Globe", "Anchor", "Zap", "Cpu"]
+    }
+  },
+  "pages": {
+    "home": {
+      "sections": ["Hero", "Pillars", "Industries", "Trust", "CTA"],
+      "key_elements": "3D abstract background, floating glass cards, gradient text"
+    },
+    "about": {
+      "sections": ["Mission", "Vision", "Culture", "Team"],
+      "key_elements": "Large typography, image grid, timeline"
+    },
+    "services": {
+      "sections": ["AI_Tech", "Creative", "Marketing"],
+      "layout": "Bento grid with detailed hover states"
+    },
+    "work": {
+      "sections": ["Case_Studies", "Results"],
+      "layout": "Masonry grid of project cards"
+    },
+    "contact": {
+      "sections": ["Form", "Info"],
+      "key_elements": "Split layout (Info Left, Form Right), database integration"
+    }
+  },
+  "instructions_to_main_agent": [
+    "Implement the 'Anti-AI' design persona: Avoid generic layouts.",
+    "Use the provided image URLs strictly. Do not use placeholders.",
+    "Ensure all interactive elements have data-testid attributes.",
+    "Use framer-motion for all page transitions and scroll effects.",
+    "The contact form must submit to the backend API (FastAPI/MongoDB).",
+    "Use the 'Outfit' font for all headings to give a tech/modern feel.",
+    "Maintain the dark mode theme throughout. Do not create a light mode toggle.",
+    "Use 'lucide-react' for icons.",
+    "For the 'Maritime' industry, ensure it is present but not the sole focus.",
+    "Use the blue gradient (primary_gradient) for key CTAs and text highlights."
+  ],
+  "universal_guidelines": [
+    "Do not use 'transition: all'. Animate specific properties.",
+    "Ensure high contrast for text on dark backgrounds (Slate-400 for secondary text).",
+    "Use generous padding (py-24, py-32) between sections.",
+    "Glassmorphism effects must have a subtle border (border-white/10) to define edges.",
+    "Never use pure black (#000000). Use Slate-950 (#020617) or similar."
+  ]
+}
